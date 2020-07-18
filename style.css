@@ -1,0 +1,420 @@
+div.container {
+  background-color: #f3f4f4;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 26px;
+}
+
+div.container div.header {
+  background-color: white;
+  width: 400px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container div.header div.card1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div.container div.header div.card1 h1 {
+  font-size: 20px;
+  margin-top: 0px;
+  color: #27168c;
+  font-weight: lighter;
+}
+
+div.container div.header div.card1 h1 span {
+  color: #00b2ff;
+}
+
+div.container div.header div.card1 h2 {
+  color: #375cee;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+
+div.container div.card2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("img/lamp4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container div.card2 h2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
+
+div.container div.card2 button {
+  margin-top: 15px;
+  border: none;
+  border-radius: 2.5px 2.5px 2.5px 2.5px;
+  color: white;
+  background-color: #2b008f;
+  width: 114px;
+  height: 26px;
+}
+
+div.container div.card3 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2b008f;
+  width: 400px;
+  height: 416px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container div.card3 h2 {
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 26px;
+}
+
+div.container div.card3 h3 {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+div.container div.card3 p {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.container div.card3 img {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+div.container div.card3 button {
+  margin-top: 10px;
+  margin-left: 138px;
+  margin-right: 138px;
+  border: none;
+  border-radius: 2.5px 2.5px 2.5px 2.5px;
+  color: white;
+  background-color: #00b2ff;
+  width: 122px;
+  height: 28px;
+}
+
+div.container div.card4 {
+  background-color: #375cee;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.container div.card4 div.card4-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.container div.card4 div.card4-inner div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+div.container div.card4 button {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border: none;
+  height: 24px;
+  border-radius: 2.5px 2.5px 2.5px 2.5px;
+  color: white;
+  background-color: #00b2ff;
+}
+
+div.container div.card4 button:after {
+  content: " >";
+}
+
+div.container div.card4 h2 {
+  padding-top: 10px;
+  margin-top: 0px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+div.container div.card4 h3 {
+  padding-top: 10px;
+  margin-top: 0px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+div.container div.card4 p {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+div.container div.card5 {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  height: 366px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.container div.card5 h1 {
+  padding-top: 24px;
+  margin-top: 0px;
+  color: #27168c;
+  font-size: 18px;
+  text-align: center;
+}
+
+div.container div.card5 div.card5-inner div.normal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.container div.card5 div.card5-inner div.normal div {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 10px;
+}
+
+div.container div.card5 div.card5-inner div.normal div p,
+div.container div.card5 div.card5-inner div.normal div h3 {
+  text-align: left;
+}
+
+div.container div.card5 div.card5-inner div.normal img {
+  width: 30%;
+  padding-top: 15px;
+}
+
+div.container div.card5 div.card5-inner div.reversed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+div.container div.card5 div.card5-inner div.reversed div {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 10px;
+}
+
+div.container div.card5 div.card5-inner div.reversed div p,
+div.container div.card5 div.card5-inner div.reversed div h3 {
+  text-align: right;
+  margin-top: 20px;
+}
+
+div.container div.card5 div.card5-inner div.reversed img {
+  width: 30%;
+}
+
+div.container div.card5 div.card5-inner h3 {
+  color: #00b2ff;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+div.container div.card5 div.card5-inner button {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+  height: 24px;
+  border-radius: 2.5px 2.5px 2.5px 2.5px;
+  color: white;
+  background-color: #00b2ff;
+}
+
+div.container div.card5 div.card5-inner button:after {
+  content: " >";
+}
+
+div.container div.card5 div.card5-inner p {
+  font-size: 10px;
+  text-align: center;
+  color: grey;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+div.container div.card6 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #00baff;
+  width: 400px;
+  height: 126px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container div.card6 h2 {
+  margin-top: 0px;
+  margin-left: 16px;
+  margin-right: 16px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 26px;
+}
+
+div.container div.card6 button {
+  margin-top: 5px;
+  margin-left: 138px;
+  margin-right: 138px;
+  border: none;
+  border-radius: 2.5px 2.5px 2.5px 2.5px;
+  color: white;
+  background-color: #2b008f;
+  width: 122px;
+  height: 28px;
+}
+
+div.container div.card7 {
+  background-color: #375cee;
+  width: 400px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container div.card7 h3 {
+  color: white;
+  font-size: 14px;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-weight: lighter;
+}
+
+div.container div.card7 div.social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  margin-left: 270px;
+  margin-right: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container div.card7 div.social-link a {
+  margin-bottom: 50px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #375cee;
+}
+
+div.container div.card7 div.social-link a img {
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border: 1.8px solid white;
+}
+
+div.container footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+  color: #c1c2c2;
+}
+
+div.container footer img {
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border: 1.8px solid white;
+}
+
+div.container footer a {
+  color: #c1c2c2;
+}
+
+div.container footer p {
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */
